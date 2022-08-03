@@ -44,15 +44,14 @@ URL编码(URL encoding)，也称作百分号编码(Percent-encoding)， 是特�
 
 测试内存性能时推荐对比打开 cache 与 关闭 cache 的测试结果
 
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps3.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/21.jpg)
 
 3.mbedtls_bench是 mbedtls 加密算法的性能测试工具，mbedtls 性能测试。分数表示可以处理的块数据量，分数越高意味着性能越好。
-
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps4.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/31.jpg)
 
 4.lwlog:单文件日志打印库。
 
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps5.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/41.jpg)
 
 \5. logmgr: 日志管理系统功能支持。
 
@@ -71,8 +70,7 @@ l 重定向系统 hardfault 和 assert 异常错误回调，添加更多系统�
 当前系统 IPC 状态、内存状态、JS 堆等日志信息
 
 l 支持系统异常时日志输出到 Flash，并在重启后导出到文件功能；
-
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps6.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/51.jpg)
 
 \6. Dhrystone 单片机性能测试小工具。
 
@@ -81,10 +79,9 @@ RT-Thread 上的 MCU/CPU 性能测试小工具，在 menuconfig 里选中软件�
 msh> dhrystone_test
 
 就可以看到跑分结果了，例如：
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/61.jpg)
 
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps7.jpg) 
-
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps8.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/62.jpg)
 
 \7. devmem读写内存/寄存器的工具。
 
@@ -124,17 +121,15 @@ msh />devmem 0x600a4000 w
 
 0x0000abcd
 
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps9.jpg) 
-
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps10.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/71.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/72.jpg)
 
 \8. CPUU: CPU 使用率统计小工具，目前不支持多核。
 
 每个时间片侦测一次当前线程，如果当前正在运行 idle 线程，空闲计数器自增。一个周期后，计算 IDEL 线程运行时间的占比。
 
 例如：
-
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps11.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/81.jpg)
 
 上图展示一个周期内，某个 CPU 上线程时间片信息。假设一个方格代表一个时间片。
 
@@ -146,16 +141,14 @@ CPU 使用率 = 13 / 30 * 100
 
 msh 命令行输入 usage -l 50，调整 CPU 使用率，使其不低于 50%
 
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps12.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/82.jpg)
 
 9.CoreMark：EEMBC 的单片机性能测试小工具。
 
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps13.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/91.jpg)
 
 10.anv_trace帮助跟踪代码执行过程。
-
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps14.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/101.jpg)
 
 11.anv_testsuit单元测试框架。
-
-![img](file:///C:\Users\tian\AppData\Local\Temp\ksohtml13748\wps15.jpg) 
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/111.jpg)
