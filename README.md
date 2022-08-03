@@ -25,8 +25,8 @@ https://github.com/supperthomas/rtthread_software_package_list_show/blob/main/rt
 
 URL编码(URL encoding)，也称作百分号编码(Percent-encoding)， 是特定上下文的统一资源定位符 (URL)的编码机制。用于统一资源标识符(URI)的编码，也用于为"application/x-www-form-urlencoded" MIME准备数据， 因为它用于通过HTTP的请求操作(request)提交HTML表单数据。
 
-https://github.com/jscsd226/rt_xialingying/blob/main/IMG/11.jpg
-https://github.com/jscsd226/rt_xialingying/blob/main/IMG/12.jpg
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/11.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/12.jpg)
 
 2.Memory Performance Testing这是一个运行在 RT-Thread 上的内存性能测试软件包，用于对 ARM CPU 的 内存性能评。
 
