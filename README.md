@@ -24,9 +24,9 @@ https://github.com/supperthomas/rtthread_software_package_list_show/blob/main/rt
 
 URL编码(URL encoding)，也称作百分号编码(Percent-encoding)， 是特定上下文的统一资源定位符 (URL)的编码机制。用于统一资源标识符(URI)的编码，也用于为"application/x-www-form-urlencoded" MIME准备数据， 因为它用于通过HTTP的请求操作(request)提交HTML表单数据。
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/11.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/11.jpg)
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/12.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/12.jpg)
 
 2.Memory Performance Testing这是一个运行在 RT-Thread 上的内存性能测试软件包，用于对 ARM CPU 的 内存性能评。
 
@@ -44,15 +44,15 @@ URL编码(URL encoding)，也称作百分号编码(Percent-encoding)， 是特�
 
 测试内存性能时推荐对比打开 cache 与 关闭 cache 的测试结果
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/21.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/21.jpg)
 
 3.mbedtls_bench是 mbedtls 加密算法的性能测试工具，mbedtls 性能测试。分数表示可以处理的块数据量，分数越高意味着性能越好。
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/31.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/31.jpg)
 
 4.lwlog:单文件日志打印库。
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/41.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/41.jpg)
 
 \5. logmgr: 日志管理系统功能支持。
 
@@ -72,7 +72,7 @@ l 重定向系统 hardfault 和 assert 异常错误回调，添加更多系统�
 
 l 支持系统异常时日志输出到 Flash，并在重启后导出到文件功能；
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/51.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/51.jpg)
 
 \6. Dhrystone 单片机性能测试小工具。
 
@@ -82,9 +82,9 @@ msh> dhrystone_test
 
 就可以看到跑分结果了，例如：
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/61.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/61.jpg)
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/62.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/62.jpg)
 
 \7. devmem读写内存/寄存器的工具。
 
@@ -124,16 +124,16 @@ msh />devmem 0x600a4000 w
 
 0x0000abcd
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/71.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/71.jpg)
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/72.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/72.jpg)
 
 \8. CPUU: CPU 使用率统计小工具，目前不支持多核。
 
 每个时间片侦测一次当前线程，如果当前正在运行 idle 线程，空闲计数器自增。一个周期后，计算 IDEL 线程运行时间的占比。
 
 例如：
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/81.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/81.jpg)
 
 上图展示一个周期内，某个 CPU 上线程时间片信息。假设一个方格代表一个时间片。
 
@@ -145,17 +145,17 @@ CPU 使用率 = 13 / 30 * 100
 
 msh 命令行输入 usage -l 50，调整 CPU 使用率，使其不低于 50%
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/82.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/82.jpg)
 
 9.CoreMark：EEMBC 的单片机性能测试小工具。
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/91.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/91.jpg)
 
 10.anv_trace帮助跟踪代码执行过程。
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/101.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/101.jpg)
 
 11.anv_testsuit单元测试框架。
 
-![image](https://github.com/jscsd226/rt_xialingying/blob/main/IMG/111.jpg)
+![image](https://github.com/jscsd226/rt_xialingying/blob/main/picture/111.jpg)
 
